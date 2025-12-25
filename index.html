@@ -591,25 +591,6 @@ cursor: pointer;
 user-select: none;
 }
 
-.chat-minimize-btn {
-background: rgba(255, 255, 255, 0.2);
-border: none;
-color: white;
-width: 24px;
-height: 24px;
-border-radius: 50%;
-cursor: pointer;
-font-size: 18px;
-display: flex;
-align-items: center;
-justify-content: center;
-transition: background 0.2s;
-}
-
-.chat-minimize-btn:hover {
-background: rgba(255, 255, 255, 0.3);
-}
-
 .chat-body {
 flex: 1;
 overflow-y: auto;
@@ -745,7 +726,7 @@ Loading MQTT library... Please wait...
 <div class="config-grid">
 <input type="text" id="broker" placeholder="Broker URL" value="test.mosquitto.org">
 <input type="text" id="port" placeholder="Port" value="8081">
-<input type="text" id="topic" placeholder="Topic" value="meshtastic/#">
+<input type="text" id="topic" placeholder="Topic" value="msh/US/2/json/#">
 <select id="maxPoints">
 <option value="50">Keep last 50 readings</option>
 <option value="100" selected>Keep last 100 readings</option>
